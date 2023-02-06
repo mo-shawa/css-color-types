@@ -1,5 +1,11 @@
 # css-color-types
 
+## 0.3.0
+
+### Minor Changes
+
+- Add readme and update author in package.json
+
 ## 0.2.0
 
 ### Minor Changes
