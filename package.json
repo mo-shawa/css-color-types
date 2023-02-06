@@ -5,7 +5,8 @@
 	"main": "",
 	"types": "dist/index.d.ts",
 	"scripts": {
-		"build": "tsup index.ts --dts-only"
+		"build": "tsup index.ts --dts-only",
+		"dev": "nodemon --watch index.ts --exec 'ts-node' index.ts"
 	},
 	"repository": {
 		"type": "git",
@@ -24,7 +25,14 @@
 	"homepage": "https://github.com/mo-shawa/css-color-types#readme",
 	"devDependencies": {
 		"@changesets/cli": "^2.26.0",
+		"@types/axios": "^0.14.0",
+		"@types/cheerio": "^0.22.31",
+		"ts-node": "^10.9.1",
 		"tsup": "^6.5.0",
 		"typescript": "^4.9.5"
+	},
+	"dependencies": {
+		"axios": "^1.3.2",
+		"cheerio": "^1.0.0-rc.12"
 	}
 }
