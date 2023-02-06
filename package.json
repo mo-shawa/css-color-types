@@ -1,9 +1,12 @@
 {
 	"name": "css-color-types",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Types for named css colors.",
 	"main": "",
 	"types": "dist/index.d.ts",
+	"files": [
+		"dist/index.d.ts"
+	],
 	"scripts": {
 		"build": "tsup index.ts --dts-only",
 		"dev": "nodemon --watch index.ts --exec 'ts-node' index.ts"
