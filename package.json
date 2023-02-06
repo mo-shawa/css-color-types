@@ -1,27 +1,28 @@
 {
-  "name": "css-color-types",
-  "version": "1.0.0",
-  "description": "Types for named css colors.",
-  "main": " ",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mo-shawa/css-color-types.git"
-  },
-  "keywords": [
-    "css",
-    "colors",
-    "types"
-  ],
-  "author": "Mahmoud El-Shawa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mo-shawa/css-color-types/issues"
-  },
-  "homepage": "https://github.com/mo-shawa/css-color-types#readme",
-  "devDependencies": {
-    "typescript": "^4.9.5"
-  }
+	"name": "css-color-types",
+	"version": "1.0.0",
+	"description": "Types for named css colors.",
+	"main": " ",
+	"scripts": {
+		"build": "tsup index.ts --dts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mo-shawa/css-color-types.git"
+	},
+	"keywords": [
+		"css",
+		"colors",
+		"types"
+	],
+	"author": "Mahmoud El-Shawa",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mo-shawa/css-color-types/issues"
+	},
+	"homepage": "https://github.com/mo-shawa/css-color-types#readme",
+	"devDependencies": {
+		"tsup": "^6.5.0",
+		"typescript": "^4.9.5"
+	}
 }
