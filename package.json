@@ -1,10 +1,11 @@
 {
 	"name": "css-color-types",
-	"version": "1.0.0",
+	"version": "0.0.2",
 	"description": "Types for named css colors.",
-	"main": " ",
+	"main": "",
+	"types": "dist/index.d.ts",
 	"scripts": {
-		"build": "tsup index.ts --dts"
+		"build": "tsup index.ts --dts-only"
 	},
 	"repository": {
 		"type": "git",
@@ -22,6 +23,7 @@
 	},
 	"homepage": "https://github.com/mo-shawa/css-color-types#readme",
 	"devDependencies": {
+		"@changesets/cli": "^2.26.0",
 		"tsup": "^6.5.0",
 		"typescript": "^4.9.5"
 	}
